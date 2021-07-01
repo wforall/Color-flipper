@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MenuBar{
+    background-color: rgb(115, 235, 229);
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.MenuBar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.MenuBar ul li{
+    margin: auto;
+    font-size: larger;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+.MenuBar ul li:hover{
+    color: whitesmoke;
+    ;
+}
+.MenuBar ul li:active{
+    font-size: medium;
+}
+/* ---------------------------------------------------------------  the part of text show*/
+
+.Text_show{
+    background-color: rgb(154, 240, 255);
+    margin-top: 350px;
+    width: fit-content;
+    height: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Text_show h2{
+    color: rgb(20, 20, 27);
+    margin-top: 10px;
+    ;
+}
+.btn_Changecolor{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width:fit-content;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: auto;
+    text-transform: capitalize;
+    font-size: larger;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn_Changecolor:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.btn_Changecolor:active{
+    font-size: medium;
+}
